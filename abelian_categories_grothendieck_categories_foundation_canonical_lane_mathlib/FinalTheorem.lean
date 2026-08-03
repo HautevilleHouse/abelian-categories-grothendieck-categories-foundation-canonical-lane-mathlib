@@ -1,0 +1,9 @@
+import abelian_categories_grothendieck_categories_foundation_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace abelian_categories_grothendieck_categories_foundation_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end abelian_categories_grothendieck_categories_foundation_canonical_lane_mathlib
+end HautevilleHouse
